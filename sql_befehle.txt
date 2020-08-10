@@ -1,0 +1,11 @@
+SQL-Insert
+INSERT INTO `kunde` (`id_Kunde`, `Nachname`, `Vorname`, `Email`) VALUES (NULL, 'Nettersheim', 'Michael', 'Michael.Nettersheim@bib.de'); 
+
+SQL-Update
+UPDATE `kunde` SET `Nachname` = 'Alenfelder2', `Vorname` = 'Heinz2', `Email` = 'Heinz2.Alenfelder2@bib.de' WHERE `kunde`.`id_Kunde` = 3; 
+
+SQL-Delete
+"DELETE FROM `kunde` WHERE `kunde`.`id_Kunde` = 3"
+
+SQL-SELECT
+SELECT * FROM `kunde` 
